@@ -101,11 +101,19 @@ mkdir data
 python main_train_eval.py
 ```
 
+
 This will:
 1. Load and preprocess data
 2. Train all three models
 3. Generate predictions
 4. Compare results and save visualizations
+
+Due to hardware constraint we executed it on 10 pages and 2 epochs as approved by teacher.Run the demo script: 
+
+```bash
+python demo_main.py
+```
+
 
 ### Run Individual Models
 
