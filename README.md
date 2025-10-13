@@ -3,7 +3,7 @@
 **Course**: UE23CS352A - Machine Learning  
 **Project**: Time Series Forecasting using Machine Learning
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements and compares three machine learning approaches for forecasting Wikipedia web traffic time series data:
 
@@ -13,7 +13,7 @@ This project implements and compares three machine learning approaches for forec
 
 The dataset contains approximately 145,000 time series of daily Wikipedia page views from July 2015 to September 2017.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Accurate time series forecasting is critical for:
 - Resource allocation and capacity planning
@@ -23,7 +23,7 @@ Accurate time series forecasting is critical for:
 
 **Challenge**: Web traffic data is noisy, has missing values, exhibits outlier spikes, and shows variable patterns across different pages.
 
-## 📊 Dataset
+##  Dataset
 
 **Source**: [Kaggle - Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
 
@@ -38,7 +38,7 @@ Accurate time series forecasting is critical for:
 - Time series values (daily page views)
 - Missing values represented as NaN
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 wikipedia-traffic-forecasting/
@@ -47,19 +47,15 @@ wikipedia-traffic-forecasting/
 ├── knn_model.py               # KNN baseline implementation
 ├── lstm_model.py              # LSTM model implementation
 ├── seq2seq_cnn.py             # Seq2Seq CNN implementation
-├── main_train_eval.py         # Main training & evaluation script
+├── main_train_eval.py         # Main data processing, training & evaluation script.
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
-│
+|── demo_main.py               # training and eval script for 10 pages and 2 epochs for demo
+│── quick_test.py              # test file to run for checking dependencies 
 ├── data/                      # Data directory (create this)
 │   └── train_2.csv           # Training data (download from Kaggle)
 │
-├── results/                   # Results directory (auto-created)
-│   ├── knn_predictions.png
-│   ├── lstm_predictions.png
-│   ├── seq2seq_cnn_predictions.png
-│   ├── model_comparison.png
-│   └── results_summary.json
+|──  demo_results/             #auto created
 │
 └── 
 ```
