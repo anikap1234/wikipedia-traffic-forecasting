@@ -1,0 +1,14 @@
+{
+    "demo_settings": {
+        "n_pages": 10,
+        "epochs": 2,
+        "note": "Ultra-fast demo for testing"
+    },
+    "results": {
+        "KNN": 118.17231372201324,
+        "LSTM": 138.71704332448317,
+        "Seq2Seq_CNN": 137.49849790957794
+    },
+    "best_model": "KNN",
+    "improvement_vs_baseline": "-16.4%"
+}
