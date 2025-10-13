@@ -170,7 +170,7 @@ cnn.train(train_data, val_data=val_data, epochs=50)
 predictions = cnn.predict(test_data)
 ```
 
-## 📈 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 
@@ -227,7 +227,7 @@ Where:
 - Unified scale across different time series
 - Symmetric (penalizes over/under-predictions equally)
 
-## 📊 Results
+## Results
 
 ### Model Performance Comparison
 
@@ -337,7 +337,7 @@ Where:
 - Hyperparameter optimization
 - Model evaluation and comparison
 
-## 🚧 Challenges and Limitations
+##  Challenges and Limitations
 
 ### Challenges Addressed
 1. **Missing Values**: Treated as NaN, encoded as feature
